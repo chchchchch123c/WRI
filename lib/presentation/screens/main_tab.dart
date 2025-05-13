@@ -171,6 +171,8 @@ class _TestState extends State<MainTab> {
         child: ClipRRect(
           borderRadius: BorderRadius.vertical(top: Radius.circular(35)),
           child: BottomNavigationBar(
+            selectedItemColor: selectItemColor,
+            unselectedItemColor: unselectItemColor,
             backgroundColor: kBackgroundColor,
             currentIndex: mainTabProvider.currentIndex,
             type: BottomNavigationBarType.fixed,

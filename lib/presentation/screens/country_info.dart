@@ -417,7 +417,7 @@ class _TestState extends State<CountryInfo> with TickerProviderStateMixin {
                                         crossAxisAlignment: CrossAxisAlignment.start,
                                         children: [
                                           Text(
-                                            '한국 시간',
+                                            '한국 시각',
                                             style: TextStyle(
                                               fontFamily: 'inter',
                                               fontWeight: FontWeight.w600,
@@ -453,7 +453,7 @@ class _TestState extends State<CountryInfo> with TickerProviderStateMixin {
                                         crossAxisAlignment: CrossAxisAlignment.start,
                                         children: [
                                           Text(
-                                            '현지 시간',
+                                            '현지 시각',
                                             style: TextStyle(
                                               fontFamily: 'inter',
                                               fontWeight: FontWeight.w600,
